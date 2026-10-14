@@ -11,7 +11,7 @@ from .auth import login_required
 from .db import get_db
 
 bp = Blueprint("blog", __name__)
-º
+
 
 @bp.route("/")
 def index():
